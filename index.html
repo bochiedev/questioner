@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <script type="text/javascript" src="js/main.js"></script>
     <title>Questioner | Welcome</title>
   </head>
   <body class="bg-light">
@@ -21,14 +22,14 @@
         <a class="text-yellow" href="index.html" ><span class="small"> <b>Questioner</b></span></a>
       </div>
 
-      <div class="navbar-close">
+      <div class="navbar-close" onclick="toggleNav()">
         <i class="fas fa-times"></i>
       </div>
-      <div class="hamburger">
+      <div class="hamburger" onclick="toggleNav()">
         <i class="fas fa-bars"></i>
       </div>
 
-      <ul class="list">
+      <ul class="list bg-primary mg-0 pd-0">
         <li class="list-item"><a class="active" href="index.html"> Home </a></li>
         <li class="list-item"><a href="meetups.html"> Meetups </a></li>
         <li class="list-item"><a href="login.html"> Login </a></li>

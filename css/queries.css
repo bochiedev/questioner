@@ -1,14 +1,25 @@
 /* Media queries css */
 
 @media only screen and (max-width: 768px){
+  nav div{
+    padding: 4px 20px;
+  }
   nav .hamburger{
     display: block;
-  }
-  nav .list{
-    display: none;
   }
   nav a{
     padding-left:5px!important;
   }
+  nav .list{
+    display: none;
+    width: calc(100%);
+    flex-direction: column;
+  }
+  nav .list-item{
+    padding-top:5px;
+    padding-bottom:10px;
+    padding-left:20px;
+  }
+
 
 }
