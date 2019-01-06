@@ -82,7 +82,9 @@ body{
 
 /* End Css Colours */
 
-
+.content{
+  width: 100%;
+}
 
 .container{
   position: relative;
@@ -145,6 +147,78 @@ body{
 }
 
 /* End Border css */
+
+
+
+/* Form css */
+
+.form {
+  position: relative;
+  margin: 0 auto;
+  width: calc(50%);
+  margin-bottom: 100px;
+}
+
+.form .checkbox{
+  vertical-align: center;
+}
+
+.form .form-image{
+  border: none!important;
+}
+
+.form-footer{
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 1.5em;
+}
+
+.form .form-footer a {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 20px 10px;
+
+}
+
+.form-group{
+  padding: 10px 10px;
+}
+.form-group label{
+  margin: 10px 12px;
+}
+
+.form-control{
+  border: none;
+  border-bottom: 1px solid #130730;
+  padding: 1em .9em;
+  width: calc(100%);
+  background-color: transparent;
+  color: #6c757d ;
+  font-size: .9em;
+  box-sizing: border-box;
+
+}
+
+.form-control:focus{
+  border: none;
+  border-bottom: 1px solid #130730;
+  outline: none;
+}
+
+.form button{
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: .1em;
+  height: 3em;
+  width: calc(100%);
+}
+
+.form h3{
+  padding: 10px 5px;
+}
+
+
+
+/* End Form css */
 
 
 /* Elements css */
