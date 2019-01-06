@@ -74,5 +74,15 @@ nav a{
   background-position: center;
 }
 
+.banner h1,h2,h3,h4,h4,h6{
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+
+.banner .btn:hover{
+  background-color: #fff;
+  opacity: .8;
+}
 
 /* End banner css */
