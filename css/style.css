@@ -57,3 +57,22 @@ nav a{
 }
 
 /* End Navigation */
+
+
+/* banner css */
+
+
+.banner{
+  height: 20vh;
+}
+
+.banner-home{
+  width: 100%;
+  height: 50vh!important;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* End banner css */
