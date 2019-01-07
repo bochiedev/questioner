@@ -13,3 +13,8 @@ function showQuestion() {
   var current_style = document.getElementById("question-form").style.display = "block";
 
 }
+
+function showComment() {
+  var current_style = document.getElementById("comment-form").style.display = "block";
+
+}
