@@ -238,6 +238,13 @@ nav a{
 .comment-heading-info span{
   margin-right: 20px;
 }
+.comment-info-footer{
+  margin-top: 10px;
+}
+
+#comment-form{
+  display: none;
+}
 
 
 
