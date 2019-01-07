@@ -110,3 +110,34 @@ nav a{
 }
 
 /* End Meetup css */
+
+
+/* Question css */
+
+.question-section{
+  margin-top: 20px;
+}
+
+.question-info{
+  padding: 10px;
+}
+
+.question-heading{
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+
+.question-heading-info{
+  display: flex;
+  padding-top: 10px;
+}
+
+.question-heading-info span{
+  margin-right: 20px;
+}
+
+
+
+
+
+/* End Question css */
