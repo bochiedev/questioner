@@ -8,3 +8,8 @@ function toggleNav() {
     current_style.style.display = "none";
   }
 }
+
+function showQuestion() {
+  var current_style = document.getElementById("question-form").style.display = "block";
+
+}

@@ -136,6 +136,10 @@ nav a{
   margin-right: 20px;
 }
 
+#question-form{
+  display:none;
+}
+
 
 
 
