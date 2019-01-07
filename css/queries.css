@@ -28,3 +28,20 @@
 
 
 }
+
+@media only screen and (max-width: 925px){
+  .profile-container{
+    flex-direction: column;
+
+  }
+  .personal-info{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .personal-info .flex-item:first-child{
+    margin-right: 20px;
+  }
+
+
+}
