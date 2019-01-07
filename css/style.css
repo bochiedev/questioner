@@ -214,3 +214,31 @@ nav a{
 }
 
 /* End profile css */
+
+/* Comment css */
+
+.comment-section{
+  margin-top: 20px;
+}
+
+.comment-info{
+  padding: 10px;
+}
+
+.comment-heading{
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+
+.comment-heading-info{
+  display: flex;
+  padding-top: 10px;
+}
+
+.comment-heading-info span{
+  margin-right: 20px;
+}
+
+
+
+/* End Comment css */
