@@ -86,3 +86,27 @@ nav a{
 }
 
 /* End banner css */
+
+
+/* Meet ups css */
+
+.meetup{
+  margin-bottom: 20px;
+}
+
+.meetup-img{
+  border-radius: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 200px;
+}
+
+.meetup-heading-info{
+  display: flex;
+  padding-top: 10px;
+}
+.meetup-heading-info span{
+  margin-right: .9em;
+}
+
+/* End Meetup css */

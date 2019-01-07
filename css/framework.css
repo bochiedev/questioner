@@ -11,6 +11,10 @@ body{
   font-size: 16px;
 }
 
+body a{
+  text-decoration: none!important;
+}
+
 /* Css Colours */
 
 /*  background colours*/
@@ -104,6 +108,11 @@ body{
   border-radius: .25rem;
   transition: .3s;
   border: none;
+}
+
+.img-responsive{
+  max-width: 100%;
+  height: auto;
 }
 
 
